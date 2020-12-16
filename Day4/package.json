@@ -1,0 +1,17 @@
+{
+  "name": "movie",
+  "version": "1.0.0",
+  "description": "- Open Movie Database",
+  "main": "app.js",
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Akshay Jain",
+  "license": "ISC"
+}

@@ -1,0 +1,25 @@
+<%- include("./partials/header")%>
+<div class="container viewPage">
+  <h1>Search Results are!</h1>
+  <div class="row">
+    <% data["Search"].forEach(function(movie) { %>
+    <div
+      class="card px-2 py-2"
+      style="
+        width: 20rem;
+        margin-bottom: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+      "
+    >
+      <img class="card-img-top" src="<%=movie.Poster%>" alt="Image Not Found" />
+      <div class="card-body">
+        <h5 class="card-title"><%=movie["Title"]%></h5>
+        <p class="card-text">Released on <%=movie["Year"]%></p>
+        <a href="/result/<%=movie["imdbID"]%>" class="btn btn-primary">Know More</a>
+      </div>
+    </div>
+    <% }) %>
+  </div>
+</div>
+<%- include("./partials/footer")%>

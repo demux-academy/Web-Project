@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>My Blog Site</title>
+  </head>
+  <style>
+    body {
+      font-size: 80%;
+      font-family: "Courier New", Courier, monospace;
+      letter-spacing: 0.15em;
+    }
+    li {
+      display: inline;
+      margin: 0px 3px;
+    }
+    ul {
+      padding: 15px;
+      margin-bottom: 10px;
+      border-top: 2px solid #000;
+      border-bottom: 1px solid #000;
+      text-align: center;
+    }
+    .view {
+      max-width: 940px;
+      min-width: 720px;
+      margin: 10px auto 10px auto;
+      padding: 20px;
+      border: 4px double #000;
+    }
+    .card {
+      border: 1px solid;
+      padding: 10px;
+      box-shadow: 5px 10px #888888;
+      margin-bottom: 20px;
+    }
+    .card img {
+      border-radius: 20px;
+    }
+    a {
+      color: #000000;
+      text-transform: uppercase;
+      text-decoration: none;
+      padding: 6px 18px 5px 18px;
+    }
+    a:hover,
+    a.on {
+      color: #cc3333;
+    }
+  </style>
+  <body>
+    <div class="view">
+      <h2 style="text-align: center">My Dogs</h2>
+      <ul>
+        <li><a href="#motu">Motu</a></li>
+        <li><a href="#jerry">Jerry</a></li>
+        <li><a href="#choti">Choti</a></li>
+      </ul>
+      <div class="card" id="motu">
+        <div class="image">
+          <img src="../assets/img/Motu.jpg" width="500px"/>
+        </div>
+        <div class="content">
+          <h3>Motu</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius
+            corrupti itaque porro ullam tenetur debitis iure quas accusantium
+            non, totam et incidunt voluptatum ea, magnam quo harum voluptatibus,
+            veniam molestias?
+          </p>
+          <button>Read More</button>
+        </div>
+      </div>
+      <div class="card" id="jerry">
+        <div class="image">
+          <img src="../assets/img/Jerry.jpg" width="500px"/>
+        </div>
+        <div class="content">
+          <h3>Jerry</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius
+            corrupti itaque porro ullam tenetur debitis iure quas accusantium
+            non, totam et incidunt voluptatum ea, magnam quo harum voluptatibus,
+            veniam molestias?
+          </p>
+          <button>Read More</button>
+        </div>
+      </div>
+      <div class="card" id="choti">
+        <div class="image">
+          <img src="../assets/img/Choti.jpg" width="500px"/>
+        </div>
+        <div class="content">
+          <h3>Choti</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius
+            corrupti itaque porro ullam tenetur debitis iure quas accusantium
+            non, totam et incidunt voluptatum ea, magnam quo harum voluptatibus,
+            veniam molestias?
+          </p>
+          <button>Read More</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
