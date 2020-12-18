@@ -1,0 +1,19 @@
+<%- include("./partials/header")%>
+<!--Main Page-->
+<div class="container">
+    <h1><%=movie.Title%></h1>
+    <!--Card-->
+  <div class="card flex-row flex-wrap">
+    <div class="card-header border-0">
+      <img src="<%=movie.Poster%>" alt="Poster" />
+    </div>
+    <div class="card-block px-2">
+      <h4 class="card-title"><%=movie.Title%></h4>
+      <p class="card-text"><%=movie.Plot%></p>
+      <p class="card-text">Actors: <%=movie.Actors%></p>
+    </div>
+    <div class="w-100"></div>
+    <div class="card-footer w-100 text-muted">Box Office: <%=movie.BoxOffice%></div>
+  </div>
+</div>
+<%- include("./partials/footer")%>
