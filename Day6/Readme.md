@@ -1,1 +1,11 @@
 # Git and GitHub
+- Installation
+- Git Commands
+- CLI
+- Staging area
+- Push
+- Branches
+- Merge
+- Working with multiple people
+- GitHub
+- Pull request
