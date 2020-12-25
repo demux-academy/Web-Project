@@ -4,6 +4,7 @@
 1. Hello World
 - Html is a markup language, not a programming language.
 - Tags usually have opening and closing tags. Some tags are self-closing : ```<img> <br/> <hr/>```
+- Following is a basic HTML Code
 ```html
 <!doctype HTML>
 <html>
@@ -28,7 +29,7 @@
 </head>
 ```
 - Body contains actual content of the page.
-
+- View usage of different tags such as `h1, h2 .., h7, p, span,ol,ul` in this sample page [here](./index1.html)
 3. Declaring Styles :
     - Inline
     - ```<Style>``` tag
@@ -92,6 +93,7 @@ p.intro:first-line {
     font-weight: bold;
 }
 ```
+- We have prepared a sample page using CSS selectors for you that you can view here [here](./index3.html)
 7. CSS Positioning
 - A good explanation can be found here : [W3Schools](https://www.w3schools.com/css/css_positioning.asp)
 - __static__ : default positioning
@@ -111,3 +113,9 @@ p.intro:first-line {
 - __inline-block__ : Elements one after the other. Can use width, height.
 - __block__ : Elements one below the other. Full width by default.
 - Example of inline element in ***index5.html***
+
+10. Playing with fonts in CSS
+- You can change the font property of text in variety of ways, check it out [here](./index4.html)
+
+### A simple exercise
+Try to recreate this blog site [here](./BlogSite/index.html) using HTML and CSS.

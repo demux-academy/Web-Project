@@ -131,7 +131,6 @@ getComputation(1, 2, function(result) { console.log(result); })
 
 ## Event loop
 
-![Event Loop](./eventloop.png)
 
 ## Advanced
 
@@ -231,24 +230,7 @@ chainableInstance
     - Variables supported
     - Imports supported
 
-## Angular Terms
-
-1. Module
-    - Defines/Declares/Exports Components and Service
-    - Imports other modules
-
-2. Component
-    - View + Associated Behaviour
-    - Html + Scss + Typescript
-
-3. Service
-    - Singleton
-    - No associated view
-    - Typescript
-
 ## References 
 
 1. JS Tutorial : https://www.w3schools.com/js/ 
-2. Angular : https://angular.io/start 
-3. Angular CLI : https://cli.angular.io/
-4. Npm packages : https://www.npmjs.com/package/browse
+2. Npm packages : https://www.npmjs.com/package/browse

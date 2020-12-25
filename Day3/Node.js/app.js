@@ -3,6 +3,7 @@ const app=express();
 app.get("/", (req, res)=>{
     res.send("Hello World");
 });
+//Accept all routes except ones specified before
 app.get("*", (req, res)=>{
     res.send("Some Error");
 });
