@@ -35,6 +35,7 @@
     - ```<Style>``` tag
     - External Stylesheet
 4. Basic html tags :
+    - ```<table>```
     - ```<p>```
     - ```<ul>``` / ```<li>```
     - ```<ol>``` / ```<li>```
@@ -60,6 +61,7 @@ p {
 }
 ```
 - More specific CSS selector has higher priority
+- Read more about Specificity [here](https://www.w3schools.com/css/css_specificity.asp) 
 ```css
 body p.one {
     color: red;
