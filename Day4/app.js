@@ -5,6 +5,9 @@ const session = require('express-session');
 const cookieParser = require('cookie-parser');
 const flash = require("connect-flash");
 const indexRoutes= require("./routes/index");
+const dotenv = require('dotenv');
+dotenv.config();
+console.log(`Your port is ${process.env.PORT}`); // 8626
 //Using Mongoose
 mongoose.connect('mongodb://localhost/DemuxApp');
 mongoose.set('useNewUrlParser', true);
@@ -40,6 +43,6 @@ app.use("/", indexRoutes);
 app.get("*", (req, res)=>{
     res.send("Some Error");
 });
-app.listen(5000, function(){
-    console.log("Server Has Started");
+app.listen(process.env.PORT, function(){
+    console.log(`Server has started at port ${process.env.PORT}`);
 });
